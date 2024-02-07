@@ -120,15 +120,10 @@ header{
 
 header .main_logo{
     position: absolute;
-    margin-top: 50px;
+    top: 50%;
+    transform: translate(0, -50%);
     margin-left: 2%;
     z-index: 10000;
-}
-header .main_logo
-header .main_logo img{
-    position: absolute;
-    max-width: 116px;
-    min-width: 80px;
 }
 header .nav{
     display: flex;
